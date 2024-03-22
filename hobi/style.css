@@ -1,0 +1,65 @@
+body{
+    background-color:bisque;
+}
+h1{
+    display: inline
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: sticky;
+    top: 0;
+    /* float: right;
+    position: relative; */
+}
+.baslik img{
+    height: 10rem;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.3rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+section img{
+    width: 30rem;
+    margin: 1rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero p{
+    margin: 1rem ;
+}
+footer{
+    background-color:cadetblue;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
