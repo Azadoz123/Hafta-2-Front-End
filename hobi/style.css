@@ -52,6 +52,9 @@ section img{
 .hero p{
     margin: 1rem ;
 }
+.social-media{
+    font-size: 2rem;
+}
 footer{
     background-color:cadetblue;
     width: 100vw;
